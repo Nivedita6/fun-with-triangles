@@ -14,6 +14,7 @@ function checkTriangle(){
     }
     else{
         outputTriangle.innerText = "Nope, angles does not form traingle."
+    }
 }
 
 isTriangleBtn.addEventListener("click", checkTriangle);
