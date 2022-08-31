@@ -18,7 +18,7 @@ function checkTriangle(){
             outputTriangle.innerText = "Nope, angles does not form triangle.";
         }
     }else{
-        outputTriangle.innerText = "The angles should be greater than 0";
+        outputTriangle.innerText = "The angles should be greater than 0. 🙅‍♂️";
     }
     
 }
