@@ -8,17 +8,20 @@ function calcuateSumOfAngles(one, two, three){
 }
 
 function checkTriangle(){
-
-    if(inputs[0].value>0  && inputs[1].value>0 && inputs[2].value > 0){
-        const sumOfAngles = calcuateSumOfAngles(Number(inputs[0].value), Number(inputs[1].value), Number(inputs[2].value));
-        if(sumOfAngles === 180){
-            outputTriangle.innerText = "Yay! It forms a triangle.";
-        }
-        else{
-            outputTriangle.innerText = "Nope, angles does not form triangle.";
+    if (inputs[0].value && inputs[1].vaue && inputs[2].value){
+        if(inputs[0].value>0  && inputs[1].value>0 && inputs[2].value > 0){
+            const sumOfAngles = calcuateSumOfAngles(Number(inputs[0].value), Number(inputs[1].value), Number(inputs[2].value));
+            if(sumOfAngles === 180){
+                outputTriangle.innerText = "Yay! It forms a triangle.";
+            }
+            else{
+                outputTriangle.innerText = "Nope, angles does not form triangle.";
+            }
+        }else{
+            outputTriangle.innerText = "The angles should be greater than 0. 🙅‍♂️";
         }
     }else{
-        outputTriangle.innerText = "The angles should be greater than 0. 🙅‍♂️";
+        outputTriangle.innerText = "Please enter the input fields.👆"
     }
     
 }
