@@ -21,7 +21,7 @@ function checkTriangle(){
             outputTriangle.innerText = "The angles should be greater than 0. 🙅‍♂️";
         }
     }else{
-        outputTriangle.innerText = "Please enter the input fields.👆"
+        outputTriangle.innerText = "Please enter all the input fields.👆"
     }
     
 }
