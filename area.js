@@ -14,7 +14,7 @@ function calculateArea(){
         }
         
     }else{
-        outputEl.innerText = "Please enter base and height fields.";
+        outputEl.innerText = "Please enter base and height.";
     }
     
 }

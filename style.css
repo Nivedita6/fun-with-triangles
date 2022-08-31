@@ -42,12 +42,13 @@ p{
 
 input{
     margin-right: 1rem;
+    margin-bottom: 5rem;
 }
 
 button{
     padding: 0.8rem 1.6rem;
     display: block;
-    margin: 3rem auto;
+    margin: 2rem auto;
     font-size: medium;
     border: 2px solid rgba(152, 97, 29, 0.623);
     border-radius: 0.5rem;
