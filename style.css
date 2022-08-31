@@ -48,7 +48,8 @@ input{
 button{
     padding: 0.8rem 1.6rem;
     display: block;
-    margin: 2rem auto;
+    margin: auto;
+    margin-bottom: 0.8rem;
     font-size: medium;
     border: 2px solid rgba(152, 97, 29, 0.623);
     border-radius: 0.5rem;
@@ -59,10 +60,12 @@ button{
 
 .output{
     font-size: larger;
+
 }
 
 #output{
     font-size: larger;
+    margin-bottom: 10rem;
 }
 
 footer{
