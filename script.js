@@ -13,7 +13,7 @@ function checkTriangle(){
         outputTriangle.innerText = "Yay! It forms a triangle.";
     }
     else{
-        outputTriangle.innerText = "Nope, angles does not form traingle."
+        outputTriangle.innerText = "Nope, angles does not form triangle."
     }
 }
 
