@@ -8,7 +8,7 @@ function calcuateSumOfAngles(one, two, three){
 }
 
 function checkTriangle(){
-    if (inputs[0].value && inputs[1].vaue && inputs[2].value){
+    if (inputs[0].value && inputs[1].value && inputs[2].value){
         if(inputs[0].value>0  && inputs[1].value>0 && inputs[2].value > 0){
             const sumOfAngles = calcuateSumOfAngles(Number(inputs[0].value), Number(inputs[1].value), Number(inputs[2].value));
             if(sumOfAngles === 180){
