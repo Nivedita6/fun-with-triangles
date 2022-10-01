@@ -11,7 +11,7 @@ function calculateHypotenuse() {
     if(sides[0].value && sides[1].value){
         if(sides[0].value > 0 && sides[1].value > 0){
             const sumOfSquares = calculateSumOfSquares(Number(sides[0].value), Number(sides[1].value));
-            const lengthOfHypotenuse = Math.sqrt(sumOfSquares);
+            const lengthOfHypotenuse = Math.sqrt(sumOfSquares).toFixed(2);
             outputEl.innerText = "The length of hypotenuse is " + lengthOfHypotenuse;
         }else{
             outputEl.innerText = "Input values should be greater than 0";
